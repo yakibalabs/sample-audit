@@ -35,8 +35,6 @@ The audit reported **41 findings**: 38 confirmed and 3 leads.
 
 NodeGoat ships with a tutorial that documents 20 flaws. This audit reported **all 20**, and 20 findings the tutorial does not list.
 
-<details>
-<summary>The documented flaws, one by one</summary>
 
 | Tutorial | Documented flaw | Reported as |
 | --- | --- | --- |
@@ -83,8 +81,6 @@ Also reported, and not on the tutorial's list:
 - **YKB-039** Profile website is HTML-encoded but used as a URL, so javascript: URLs survive into an href
 - **YKB-040** Config-supplied script tags are injected raw into every page
 - **YKB-041** TLS private key is committed to the repository
-
-</details>
 
 ### About this sample
 
